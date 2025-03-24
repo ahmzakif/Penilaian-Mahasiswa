@@ -135,6 +135,15 @@ function App() {
             </tbody>
           </table>
         </div>
+
+        <div className='hyperlink'>
+          <div className='col'>
+            <span>Repository : </span>
+            <a href="https://github.com/ahmzakif/Penilaian-Mahasiswa">https://github.com/ahmzakif/Penilaian-Mahasiswa</a>
+
+          </div>
+        </div>
+        
         <div className="action-buttons">
           <button type="submit" className="save-button">Simpan Penilaian</button>
           {output && (
